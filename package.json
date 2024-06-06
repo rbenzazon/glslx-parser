@@ -4,7 +4,7 @@
   "description": "transform streamed glsl tokens into an ast",
   "main": "stream.js",
   "dependencies": {
-    "glsl-tokenizer": "^2.1.4",
+    "glsl-tokenizer": "github:rbenzazon/glslx-tokenizer",
     "through": "2.3.4",
     "through2": "^0.6.3"
   },
@@ -17,19 +17,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/glsl-parser.git"
+    "url": "git@github.com:rbenzazon/glslx-parser.git"
   },
   "keywords": [
     "glsl",
     "parser",
     "ast",
     "through",
-    "stream"
+    "stream",
+    "glslx"
   ],
   "authors": [
     "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
     "Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
-    "Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+    "Chris Dickinson <chris@neversaw.us> (http://neversaw.us)",
+    "Raphaël Benzazon <raphael.benzazon@gmail.com>"
   ],
   "license": "MIT"
 }
